@@ -20,7 +20,7 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
     <div>
-      <Layout>
+      <Layout home>
         <section className={utilStyles.headingMd}>
           <p>
             テスト。テスト。テスト。テスト。テスト。テスト。テスト。テスト。テテスト。テスト。テスト。テスト。
